@@ -1,0 +1,2 @@
+sh make.sh <day>
+python scrape.py <day>
