@@ -1,6 +1,6 @@
 import requests, sys
 
-SESSION = "53616c7465645f5fcc437cbeabfc6511f7358fe605d8372d150859dc73c75892d78a124dc3c6c5c382d6f5a1e70ed1b4164ef170df7fc130a4d2400a6d2ed12e"
+SESSION = "_"
 HEADERS = {"User-Agent": "Fetch tool"}
 
 def fetch(day: int):
