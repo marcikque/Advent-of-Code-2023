@@ -7,7 +7,7 @@ My choice of language fell on 'Python'.
 Despite my experience with libraries such as 'Pandas', 'Numpy', and 'Torch', I have never dived deep into the basics.
 To fill this gap, I dedicate this year's 25 puzzles to get more comfortable with the language as a whole.
 
-### Constraints
+## Constraints
 My approach is simple:
 - 'no hardcoding': all of my code should be able to run without the need to insert values from the input.
 - 'no preparsing': despite simplifying things, changing the input just doesn't feel right.
@@ -17,3 +17,7 @@ My approach is simple:
 ## Motivation
 I am really excited for this year's coding puzzles and cannot wait to dive into all of them.
 Additionally, by joining multiple private leaderboards, I have a lot of motivation to not fall back and solve every single day.
+
+## File structure
+Generally, each day has its own directory, containing three files: the task, input, and source code.
+Furthermore, I am using two scripts to automatically create a new directory and populate it with the needed files.
