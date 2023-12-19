@@ -30,13 +30,11 @@ def solve(lines, hexa):
         dug.append((x, y))
         border += b
 
-    # Gauss' Area = \frac{1}{2}\vert\sum\limits_{i=1}^{n} (x_{i} \cdot y_{i+1} - x_{i+1} \cdot y_{i})\vert
     interior = 0.0
     for x in range(len(dug)):
-        y = (x + 1) % len(dug)
+        y = (x + 1) if (x + 1) < len(dug) else (x+1) - len(dug)
         interior += dug[x][0] * dug[y][1] - dug[y][0] * dug[x][1]
     interior = abs(interior) / 2.0
-    # Pick's Area = I + \frac{B}{2} - 1
     result = interior + border / 2 + 1
     return int(result)
 
